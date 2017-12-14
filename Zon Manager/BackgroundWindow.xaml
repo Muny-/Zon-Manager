@@ -1,0 +1,8 @@
+﻿<Window x:Class="Zön_Manager.BackgroundWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Zön Manager" Height="0" Width="0" ShowActivated="False" Focusable="False" IsHitTestVisible="False" IsTabStop="True" WindowState="Minimized" ResizeMode="NoResize" ShowInTaskbar="False" Visibility="Hidden" Opacity="0" WindowStyle="None" AllowsTransparency="True" Background="{x:Null}" Foreground="{x:Null}">
+    <Grid>
+        
+    </Grid>
+</Window>

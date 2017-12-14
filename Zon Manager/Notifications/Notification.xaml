@@ -1,0 +1,19 @@
+﻿<Window ShowActivated="False" x:Class="Zön_Manager.Notifications.Notification"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" Height="155" Width="436" WindowStyle="None" Topmost="True" ShowInTaskbar="False" Loaded="Window_Loaded" AllowsTransparency="True" Background="{x:Null}">
+    <Border>
+        <Border.Effect>
+            <DropShadowEffect BlurRadius="10" ShadowDepth="0" Opacity="0.85" RenderingBias="Quality" Direction="0" />
+        </Border.Effect>
+
+        <Grid Background="White" Margin="6">
+            <Border BorderThickness="1" MouseUp="Border_MouseUp">
+                <Grid>
+                    <Label x:Name="label1" Content="Notification" HorizontalAlignment="Left" Margin="8,4,0,0" VerticalAlignment="Top" Width="333" FontSize="18"/>
+                    <Canvas HorizontalAlignment="Left" Height="1" Margin="10,36,0,0" VerticalAlignment="Top" Width="402" Background="#FF0494F7" Opacity="0.9"/>
+                    <TextBlock x:Name="label2" HorizontalAlignment="Left" Margin="16,45,0,0" TextWrapping="WrapWithOverflow" Text="Description" VerticalAlignment="Top" Height="86" Width="396" FontSize="16" TextTrimming="CharacterEllipsis" TextOptions.TextHintingMode="Fixed" FontWeight="Thin"/>
+                </Grid>
+            </Border>
+        </Grid>
+    </Border>
+</Window>

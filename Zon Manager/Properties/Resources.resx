@@ -1,0 +1,776 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="WindowsZones" xml:space="preserve">
+    <value>&lt;?xml version="1.0" encoding="UTF-8" ?&gt;
+&lt;!--
+Copyright © 1991-2013 Unicode, Inc.
+CLDR data files are interpreted according to the LDML specification (http://unicode.org/reports/tr35/)
+For terms of use, see http://www.unicode.org/copyright.html
+--&gt;
+
+&lt;supplementalData&gt;
+        &lt;version number="$Revision$"/&gt;
+        &lt;generation date="$Date$"/&gt;
+
+        &lt;windowsZones&gt;
+                &lt;mapTimezones otherVersion="7dd0003" typeVersion="2013d"&gt;
+
+                        &lt;!-- (UTC-12:00) International Date Line West --&gt;
+                        &lt;mapZone other="Dateline Standard Time" territory="001" type="Etc/GMT+12"/&gt;
+                        &lt;mapZone other="Dateline Standard Time" territory="ZZ" type="Etc/GMT+12"/&gt;
+
+                        &lt;!-- (UTC-11:00) Coordinated Universal Time-11 --&gt;
+                        &lt;mapZone other="UTC-11" territory="001" type="Etc/GMT+11"/&gt;
+                        &lt;mapZone other="UTC-11" territory="AS" type="Pacific/Pago_Pago"/&gt;
+                        &lt;mapZone other="UTC-11" territory="NU" type="Pacific/Niue"/&gt;
+                        &lt;mapZone other="UTC-11" territory="UM" type="Pacific/Midway"/&gt;
+                        &lt;mapZone other="UTC-11" territory="ZZ" type="Etc/GMT+11"/&gt;
+
+                        &lt;!-- (UTC-10:00) Hawaii --&gt;
+                        &lt;mapZone other="Hawaiian Standard Time" territory="001" type="Pacific/Honolulu"/&gt;
+                        &lt;mapZone other="Hawaiian Standard Time" territory="CK" type="Pacific/Rarotonga"/&gt;
+                        &lt;mapZone other="Hawaiian Standard Time" territory="PF" type="Pacific/Tahiti"/&gt;
+                        &lt;mapZone other="Hawaiian Standard Time" territory="UM" type="Pacific/Johnston"/&gt;
+                        &lt;mapZone other="Hawaiian Standard Time" territory="US" type="Pacific/Honolulu"/&gt;
+                        &lt;mapZone other="Hawaiian Standard Time" territory="ZZ" type="Etc/GMT+10"/&gt;
+
+                        &lt;!-- (UTC-09:00) Alaska --&gt;
+                        &lt;mapZone other="Alaskan Standard Time" territory="001" type="America/Anchorage"/&gt;
+                        &lt;mapZone other="Alaskan Standard Time" territory="US" type="America/Anchorage America/Juneau America/Nome America/Sitka America/Yakutat"/&gt;
+
+                        &lt;!-- (UTC-08:00) Baja California --&gt;
+                        &lt;mapZone other="Pacific Standard Time (Mexico)" territory="001" type="America/Santa_Isabel"/&gt;
+                        &lt;mapZone other="Pacific Standard Time (Mexico)" territory="MX" type="America/Santa_Isabel"/&gt;
+
+                        &lt;!-- (UTC-08:00) Pacific Time (US &amp; Canada) --&gt;
+                        &lt;mapZone other="Pacific Standard Time" territory="001" type="America/Los_Angeles"/&gt;
+                        &lt;mapZone other="Pacific Standard Time" territory="CA" type="America/Vancouver America/Dawson America/Whitehorse"/&gt;
+                        &lt;mapZone other="Pacific Standard Time" territory="MX" type="America/Tijuana"/&gt;
+                        &lt;mapZone other="Pacific Standard Time" territory="US" type="America/Los_Angeles"/&gt;
+                        &lt;mapZone other="Pacific Standard Time" territory="ZZ" type="PST8PDT"/&gt;
+
+                        &lt;!-- (UTC-07:00) Arizona --&gt;
+                        &lt;mapZone other="US Mountain Standard Time" territory="001" type="America/Phoenix"/&gt;
+                        &lt;mapZone other="US Mountain Standard Time" territory="CA" type="America/Dawson_Creek America/Creston"/&gt;
+                        &lt;mapZone other="US Mountain Standard Time" territory="MX" type="America/Hermosillo"/&gt;
+                        &lt;mapZone other="US Mountain Standard Time" territory="US" type="America/Phoenix"/&gt;
+                        &lt;mapZone other="US Mountain Standard Time" territory="ZZ" type="Etc/GMT+7"/&gt;
+
+                        &lt;!-- (UTC-07:00) Chihuahua, La Paz, Mazatlan --&gt;
+                        &lt;mapZone other="Mountain Standard Time (Mexico)" territory="001" type="America/Chihuahua"/&gt;
+                        &lt;mapZone other="Mountain Standard Time (Mexico)" territory="MX" type="America/Chihuahua America/Mazatlan"/&gt;
+
+                        &lt;!-- (UTC-07:00) Mountain Time (US &amp; Canada) --&gt;
+                        &lt;mapZone other="Mountain Standard Time" territory="001" type="America/Denver"/&gt;
+                        &lt;mapZone other="Mountain Standard Time" territory="CA" type="America/Edmonton America/Cambridge_Bay America/Inuvik America/Yellowknife"/&gt;
+                        &lt;mapZone other="Mountain Standard Time" territory="MX" type="America/Ojinaga"/&gt;
+                        &lt;mapZone other="Mountain Standard Time" territory="US" type="America/Denver America/Boise America/Shiprock"/&gt;
+                        &lt;mapZone other="Mountain Standard Time" territory="ZZ" type="MST7MDT"/&gt;
+
+                        &lt;!-- (UTC-06:00) Central America --&gt;
+                        &lt;mapZone other="Central America Standard Time" territory="001" type="America/Guatemala"/&gt;
+                        &lt;mapZone other="Central America Standard Time" territory="BZ" type="America/Belize"/&gt;
+                        &lt;mapZone other="Central America Standard Time" territory="CR" type="America/Costa_Rica"/&gt;
+                        &lt;mapZone other="Central America Standard Time" territory="EC" type="Pacific/Galapagos"/&gt;
+                        &lt;mapZone other="Central America Standard Time" territory="GT" type="America/Guatemala"/&gt;
+                        &lt;mapZone other="Central America Standard Time" territory="HN" type="America/Tegucigalpa"/&gt;
+                        &lt;mapZone other="Central America Standard Time" territory="NI" type="America/Managua"/&gt;
+                        &lt;mapZone other="Central America Standard Time" territory="SV" type="America/El_Salvador"/&gt;
+                        &lt;mapZone other="Central America Standard Time" territory="ZZ" type="Etc/GMT+6"/&gt;
+
+                        &lt;!-- (UTC-06:00) Central Time (US &amp; Canada) --&gt;
+                        &lt;mapZone other="Central Standard Time" territory="001" type="America/Chicago"/&gt;
+                        &lt;mapZone other="Central Standard Time" territory="CA" type="America/Winnipeg America/Rainy_River America/Rankin_Inlet America/Resolute"/&gt;
+                        &lt;mapZone other="Central Standard Time" territory="MX" type="America/Matamoros"/&gt;
+                        &lt;mapZone other="Central Standard Time" territory="US" type="America/Chicago America/Indiana/Knox America/Indiana/Tell_City America/Menominee America/North_Dakota/Beulah America/North_Dakota/Center America/North_Dakota/New_Salem"/&gt;
+                        &lt;mapZone other="Central Standard Time" territory="ZZ" type="CST6CDT"/&gt;
+
+                        &lt;!-- (UTC-06:00) Guadalajara, Mexico City, Monterrey --&gt;
+                        &lt;mapZone other="Central Standard Time (Mexico)" territory="001" type="America/Mexico_City"/&gt;
+                        &lt;mapZone other="Central Standard Time (Mexico)" territory="MX" type="America/Mexico_City America/Bahia_Banderas America/Cancun America/Merida America/Monterrey"/&gt;
+
+                        &lt;!-- (UTC-06:00) Saskatchewan --&gt;
+                        &lt;mapZone other="Canada Central Standard Time" territory="001" type="America/Regina"/&gt;
+                        &lt;mapZone other="Canada Central Standard Time" territory="CA" type="America/Regina America/Swift_Current"/&gt;
+
+                        &lt;!-- (UTC-05:00) Bogota, Lima, Quito --&gt;
+                        &lt;mapZone other="SA Pacific Standard Time" territory="001" type="America/Bogota"/&gt;
+                        &lt;mapZone other="SA Pacific Standard Time" territory="CA" type="America/Coral_Harbour"/&gt;
+                        &lt;mapZone other="SA Pacific Standard Time" territory="CO" type="America/Bogota"/&gt;
+                        &lt;mapZone other="SA Pacific Standard Time" territory="EC" type="America/Guayaquil"/&gt;
+                        &lt;mapZone other="SA Pacific Standard Time" territory="JM" type="America/Jamaica"/&gt;
+                        &lt;mapZone other="SA Pacific Standard Time" territory="KY" type="America/Cayman"/&gt;
+                        &lt;mapZone other="SA Pacific Standard Time" territory="PA" type="America/Panama"/&gt;
+                        &lt;mapZone other="SA Pacific Standard Time" territory="PE" type="America/Lima"/&gt;
+                        &lt;mapZone other="SA Pacific Standard Time" territory="ZZ" type="Etc/GMT+5"/&gt;
+
+                        &lt;!-- (UTC-05:00) Eastern Time (US &amp; Canada) --&gt;
+                        &lt;mapZone other="Eastern Standard Time" territory="001" type="America/New_York"/&gt;
+                        &lt;mapZone other="Eastern Standard Time" territory="BS" type="America/Nassau"/&gt;
+                        &lt;mapZone other="Eastern Standard Time" territory="CA" type="America/Toronto America/Iqaluit America/Montreal America/Nipigon America/Pangnirtung America/Thunder_Bay"/&gt;
+                        &lt;mapZone other="Eastern Standard Time" territory="CU" type="America/Havana"/&gt;
+                        &lt;mapZone other="Eastern Standard Time" territory="HT" type="America/Port-au-Prince"/&gt;
+                        &lt;mapZone other="Eastern Standard Time" territory="TC" type="America/Grand_Turk"/&gt;
+                        &lt;mapZone other="Eastern Standard Time" territory="US" type="America/New_York America/Detroit America/Indiana/Petersburg America/Indiana/Vincennes America/Indiana/Winamac America/Kentucky/Monticello America/Louisville"/&gt;
+                        &lt;mapZone other="Eastern Standard Time" territory="ZZ" type="EST5EDT"/&gt;
+
+                        &lt;!-- (UTC-05:00) Indiana (East) --&gt;
+                        &lt;mapZone other="US Eastern Standard Time" territory="001" type="America/Indianapolis"/&gt;
+                        &lt;mapZone other="US Eastern Standard Time" territory="US" type="America/Indianapolis America/Indiana/Marengo America/Indiana/Vevay"/&gt;
+
+                        &lt;!-- (UTC-04:30) Caracas --&gt;
+                        &lt;mapZone other="Venezuela Standard Time" territory="001" type="America/Caracas"/&gt;
+                        &lt;mapZone other="Venezuela Standard Time" territory="VE" type="America/Caracas"/&gt;
+
+                        &lt;!-- (UTC-04:00) Asuncion --&gt;
+                        &lt;mapZone other="Paraguay Standard Time" territory="001" type="America/Asuncion"/&gt;
+                        &lt;mapZone other="Paraguay Standard Time" territory="PY" type="America/Asuncion"/&gt;
+
+                        &lt;!-- (UTC-04:00) Atlantic Time (Canada) --&gt;
+                        &lt;mapZone other="Atlantic Standard Time" territory="001" type="America/Halifax"/&gt;
+                        &lt;mapZone other="Atlantic Standard Time" territory="BM" type="Atlantic/Bermuda"/&gt;
+                        &lt;mapZone other="Atlantic Standard Time" territory="CA" type="America/Halifax America/Glace_Bay America/Goose_Bay America/Moncton"/&gt;
+                        &lt;mapZone other="Atlantic Standard Time" territory="GL" type="America/Thule"/&gt;
+
+                        &lt;!-- (UTC-04:00) Cuiaba --&gt;
+                        &lt;mapZone other="Central Brazilian Standard Time" territory="001" type="America/Cuiaba"/&gt;
+                        &lt;mapZone other="Central Brazilian Standard Time" territory="BR" type="America/Cuiaba America/Campo_Grande"/&gt;
+
+                        &lt;!-- (UTC-04:00) Georgetown, La Paz, Manaus, San Juan --&gt;
+                        &lt;mapZone other="SA Western Standard Time" territory="001" type="America/La_Paz"/&gt;
+                        &lt;mapZone other="SA Western Standard Time" territory="AG" type="America/Antigua"/&gt;
+                        &lt;mapZone other="SA Western Standard Time" territory="AI" type="America/Anguilla"/&gt;
+                        &lt;mapZone other="SA Western Standard Time" territory="AW" type="America/Aruba"/&gt;
+                        &lt;mapZone other="SA Western Standard Time" territory="BB" type="America/Barbados"/&gt;
+                        &lt;mapZone other="SA Western Standard Time" territory="BL" type="America/St_Barthelemy"/&gt;
+                        &lt;mapZone other="SA Western Standard Time" territory="BO" type="America/La_Paz"/&gt;
+                        &lt;mapZone other="SA Western Standard Time" territory="BQ" type="America/Kralendijk"/&gt;
+                        &lt;mapZone other="SA Western Standard Time" territory="BR" type="America/Manaus America/Boa_Vista America/Eirunepe America/Porto_Velho America/Rio_Branco"/&gt;
+                        &lt;mapZone other="SA Western Standard Time" territory="CA" type="America/Blanc-Sablon"/&gt;
+                        &lt;mapZone other="SA Western Standard Time" territory="CW" type="America/Curacao"/&gt;
+                        &lt;mapZone other="SA Western Standard Time" territory="DM" type="America/Dominica"/&gt;
+                        &lt;mapZone other="SA Western Standard Time" territory="DO" type="America/Santo_Domingo"/&gt;
+                        &lt;mapZone other="SA Western Standard Time" territory="GD" type="America/Grenada"/&gt;
+                        &lt;mapZone other="SA Western Standard Time" territory="GP" type="America/Guadeloupe"/&gt;
+                        &lt;mapZone other="SA Western Standard Time" territory="GY" type="America/Guyana"/&gt;
+                        &lt;mapZone other="SA Western Standard Time" territory="KN" type="America/St_Kitts"/&gt;
+                        &lt;mapZone other="SA Western Standard Time" territory="LC" type="America/St_Lucia"/&gt;
+                        &lt;mapZone other="SA Western Standard Time" territory="MF" type="America/Marigot"/&gt;
+                        &lt;mapZone other="SA Western Standard Time" territory="MQ" type="America/Martinique"/&gt;
+                        &lt;mapZone other="SA Western Standard Time" territory="MS" type="America/Montserrat"/&gt;
+                        &lt;mapZone other="SA Western Standard Time" territory="PR" type="America/Puerto_Rico"/&gt;
+                        &lt;mapZone other="SA Western Standard Time" territory="SX" type="America/Lower_Princes"/&gt;
+                        &lt;mapZone other="SA Western Standard Time" territory="TT" type="America/Port_of_Spain"/&gt;
+                        &lt;mapZone other="SA Western Standard Time" territory="VC" type="America/St_Vincent"/&gt;
+                        &lt;mapZone other="SA Western Standard Time" territory="VG" type="America/Tortola"/&gt;
+                        &lt;mapZone other="SA Western Standard Time" territory="VI" type="America/St_Thomas"/&gt;
+                        &lt;mapZone other="SA Western Standard Time" territory="ZZ" type="Etc/GMT+4"/&gt;
+
+                        &lt;!-- (UTC-04:00) Santiago --&gt;
+                        &lt;mapZone other="Pacific SA Standard Time" territory="001" type="America/Santiago"/&gt;
+                        &lt;mapZone other="Pacific SA Standard Time" territory="AQ" type="Antarctica/Palmer"/&gt;
+                        &lt;mapZone other="Pacific SA Standard Time" territory="CL" type="America/Santiago"/&gt;
+
+                        &lt;!-- (UTC-03:30) Newfoundland --&gt;
+                        &lt;mapZone other="Newfoundland Standard Time" territory="001" type="America/St_Johns"/&gt;
+                        &lt;mapZone other="Newfoundland Standard Time" territory="CA" type="America/St_Johns"/&gt;
+
+                        &lt;!-- (UTC-03:00) Brasilia --&gt;
+                        &lt;mapZone other="E. South America Standard Time" territory="001" type="America/Sao_Paulo"/&gt;
+                        &lt;mapZone other="E. South America Standard Time" territory="BR" type="America/Sao_Paulo America/Araguaina"/&gt;
+
+                        &lt;!-- (UTC-03:00) Buenos Aires --&gt;
+                        &lt;mapZone other="Argentina Standard Time" territory="001" type="America/Buenos_Aires"/&gt;
+                        &lt;mapZone other="Argentina Standard Time" territory="AR" type="America/Buenos_Aires America/Argentina/La_Rioja America/Argentina/Rio_Gallegos America/Argentina/Salta America/Argentina/San_Juan America/Argentina/San_Luis America/Argentina/Tucuman America/Argentina/Ushuaia America/Catamarca America/Cordoba America/Jujuy America/Mendoza"/&gt;
+
+                        &lt;!-- (UTC-03:00) Cayenne, Fortaleza --&gt;
+                        &lt;mapZone other="SA Eastern Standard Time" territory="001" type="America/Cayenne"/&gt;
+                        &lt;mapZone other="SA Eastern Standard Time" territory="AQ" type="Antarctica/Rothera"/&gt;
+                        &lt;mapZone other="SA Eastern Standard Time" territory="BR" type="America/Fortaleza America/Belem America/Maceio America/Recife America/Santarem"/&gt;
+                        &lt;mapZone other="SA Eastern Standard Time" territory="FK" type="Atlantic/Stanley"/&gt;
+                        &lt;mapZone other="SA Eastern Standard Time" territory="GF" type="America/Cayenne"/&gt;
+                        &lt;mapZone other="SA Eastern Standard Time" territory="SR" type="America/Paramaribo"/&gt;
+                        &lt;mapZone other="SA Eastern Standard Time" territory="ZZ" type="Etc/GMT+3"/&gt;
+
+                        &lt;!-- (UTC-03:00) Greenland --&gt;
+                        &lt;mapZone other="Greenland Standard Time" territory="001" type="America/Godthab"/&gt;
+                        &lt;mapZone other="Greenland Standard Time" territory="GL" type="America/Godthab"/&gt;
+
+                        &lt;!-- (UTC-03:00) Montevideo --&gt;
+                        &lt;mapZone other="Montevideo Standard Time" territory="001" type="America/Montevideo"/&gt;
+                        &lt;mapZone other="Montevideo Standard Time" territory="UY" type="America/Montevideo"/&gt;
+
+                        &lt;!-- (UTC-03:00) Salvador --&gt;
+                        &lt;mapZone other="Bahia Standard Time" territory="001" type="America/Bahia"/&gt;
+                        &lt;mapZone other="Bahia Standard Time" territory="BR" type="America/Bahia"/&gt;
+
+                        &lt;!-- (UTC-02:00) Coordinated Universal Time-02 --&gt;
+                        &lt;mapZone other="UTC-02" territory="001" type="Etc/GMT+2"/&gt;
+                        &lt;mapZone other="UTC-02" territory="BR" type="America/Noronha"/&gt;
+                        &lt;mapZone other="UTC-02" territory="GS" type="Atlantic/South_Georgia"/&gt;
+                        &lt;mapZone other="UTC-02" territory="ZZ" type="Etc/GMT+2"/&gt;
+
+                        &lt;!-- (UTC-02:00) Mid-Atlantic --&gt;
+                        &lt;!-- Unmappable --&gt;
+
+                        &lt;!-- (UTC-01:00) Azores --&gt;
+                        &lt;mapZone other="Azores Standard Time" territory="001" type="Atlantic/Azores"/&gt;
+                        &lt;mapZone other="Azores Standard Time" territory="GL" type="America/Scoresbysund"/&gt;
+                        &lt;mapZone other="Azores Standard Time" territory="PT" type="Atlantic/Azores"/&gt;
+
+                        &lt;!-- (UTC-01:00) Cape Verde Is. --&gt;
+                        &lt;mapZone other="Cape Verde Standard Time" territory="001" type="Atlantic/Cape_Verde"/&gt;
+                        &lt;mapZone other="Cape Verde Standard Time" territory="CV" type="Atlantic/Cape_Verde"/&gt;
+                        &lt;mapZone other="Cape Verde Standard Time" territory="ZZ" type="Etc/GMT+1"/&gt;
+
+                        &lt;!-- (UTC) Casablanca --&gt;
+                        &lt;mapZone other="Morocco Standard Time" territory="001" type="Africa/Casablanca"/&gt;
+                        &lt;mapZone other="Morocco Standard Time" territory="MA" type="Africa/Casablanca"/&gt;
+
+                        &lt;!-- (UTC) Coordinated Universal Time --&gt;
+                        &lt;mapZone other="UTC" territory="001" type="Etc/GMT"/&gt;
+                        &lt;mapZone other="UTC" territory="GL" type="America/Danmarkshavn"/&gt;
+                        &lt;mapZone other="UTC" territory="ZZ" type="Etc/GMT"/&gt;
+
+                        &lt;!-- (UTC) Dublin, Edinburgh, Lisbon, London --&gt;
+                        &lt;mapZone other="GMT Standard Time" territory="001" type="Europe/London"/&gt;
+                        &lt;mapZone other="GMT Standard Time" territory="ES" type="Atlantic/Canary"/&gt;
+                        &lt;mapZone other="GMT Standard Time" territory="FO" type="Atlantic/Faeroe"/&gt;
+                        &lt;mapZone other="GMT Standard Time" territory="GB" type="Europe/London"/&gt;
+                        &lt;mapZone other="GMT Standard Time" territory="GG" type="Europe/Guernsey"/&gt;
+                        &lt;mapZone other="GMT Standard Time" territory="IE" type="Europe/Dublin"/&gt;
+                        &lt;mapZone other="GMT Standard Time" territory="IM" type="Europe/Isle_of_Man"/&gt;
+                        &lt;mapZone other="GMT Standard Time" territory="JE" type="Europe/Jersey"/&gt;
+                        &lt;mapZone other="GMT Standard Time" territory="PT" type="Europe/Lisbon Atlantic/Madeira"/&gt;
+
+                        &lt;!-- (UTC) Monrovia, Reykjavik --&gt;
+                        &lt;mapZone other="Greenwich Standard Time" territory="001" type="Atlantic/Reykjavik"/&gt;
+                        &lt;mapZone other="Greenwich Standard Time" territory="BF" type="Africa/Ouagadougou"/&gt;
+                        &lt;mapZone other="Greenwich Standard Time" territory="CI" type="Africa/Abidjan"/&gt;
+                        &lt;mapZone other="Greenwich Standard Time" territory="EH" type="Africa/El_Aaiun"/&gt;
+                        &lt;mapZone other="Greenwich Standard Time" territory="GH" type="Africa/Accra"/&gt;
+                        &lt;mapZone other="Greenwich Standard Time" territory="GM" type="Africa/Banjul"/&gt;
+                        &lt;mapZone other="Greenwich Standard Time" territory="GN" type="Africa/Conakry"/&gt;
+                        &lt;mapZone other="Greenwich Standard Time" territory="GW" type="Africa/Bissau"/&gt;
+                        &lt;mapZone other="Greenwich Standard Time" territory="IS" type="Atlantic/Reykjavik"/&gt;
+                        &lt;mapZone other="Greenwich Standard Time" territory="LR" type="Africa/Monrovia"/&gt;
+                        &lt;mapZone other="Greenwich Standard Time" territory="ML" type="Africa/Bamako"/&gt;
+                        &lt;mapZone other="Greenwich Standard Time" territory="MR" type="Africa/Nouakchott"/&gt;
+                        &lt;mapZone other="Greenwich Standard Time" territory="SH" type="Atlantic/St_Helena"/&gt;
+                        &lt;mapZone other="Greenwich Standard Time" territory="SL" type="Africa/Freetown"/&gt;
+                        &lt;mapZone other="Greenwich Standard Time" territory="SN" type="Africa/Dakar"/&gt;
+                        &lt;mapZone other="Greenwich Standard Time" territory="ST" type="Africa/Sao_Tome"/&gt;
+                        &lt;mapZone other="Greenwich Standard Time" territory="TG" type="Africa/Lome"/&gt;
+
+                        &lt;!-- (UTC+01:00) Amsterdam, Berlin, Bern, Rome, Stockholm, Vienna --&gt;
+                        &lt;mapZone other="W. Europe Standard Time" territory="001" type="Europe/Berlin"/&gt;
+                        &lt;mapZone other="W. Europe Standard Time" territory="AD" type="Europe/Andorra"/&gt;
+                        &lt;mapZone other="W. Europe Standard Time" territory="AT" type="Europe/Vienna"/&gt;
+                        &lt;mapZone other="W. Europe Standard Time" territory="CH" type="Europe/Zurich"/&gt;
+                        &lt;mapZone other="W. Europe Standard Time" territory="DE" type="Europe/Berlin Europe/Busingen"/&gt;
+                        &lt;mapZone other="W. Europe Standard Time" territory="GI" type="Europe/Gibraltar"/&gt;
+                        &lt;mapZone other="W. Europe Standard Time" territory="IT" type="Europe/Rome"/&gt;
+                        &lt;mapZone other="W. Europe Standard Time" territory="LI" type="Europe/Vaduz"/&gt;
+                        &lt;mapZone other="W. Europe Standard Time" territory="LU" type="Europe/Luxembourg"/&gt;
+                        &lt;mapZone other="W. Europe Standard Time" territory="MC" type="Europe/Monaco"/&gt;
+                        &lt;mapZone other="W. Europe Standard Time" territory="MT" type="Europe/Malta"/&gt;
+                        &lt;mapZone other="W. Europe Standard Time" territory="NL" type="Europe/Amsterdam"/&gt;
+                        &lt;mapZone other="W. Europe Standard Time" territory="NO" type="Europe/Oslo"/&gt;
+                        &lt;mapZone other="W. Europe Standard Time" territory="SE" type="Europe/Stockholm"/&gt;
+                        &lt;mapZone other="W. Europe Standard Time" territory="SJ" type="Arctic/Longyearbyen"/&gt;
+                        &lt;mapZone other="W. Europe Standard Time" territory="SM" type="Europe/San_Marino"/&gt;
+                        &lt;mapZone other="W. Europe Standard Time" territory="VA" type="Europe/Vatican"/&gt;
+
+                        &lt;!-- (UTC+01:00) Belgrade, Bratislava, Budapest, Ljubljana, Prague --&gt;
+                        &lt;mapZone other="Central Europe Standard Time" territory="001" type="Europe/Budapest"/&gt;
+                        &lt;mapZone other="Central Europe Standard Time" territory="AL" type="Europe/Tirane"/&gt;
+                        &lt;mapZone other="Central Europe Standard Time" territory="CZ" type="Europe/Prague"/&gt;
+                        &lt;mapZone other="Central Europe Standard Time" territory="HU" type="Europe/Budapest"/&gt;
+                        &lt;mapZone other="Central Europe Standard Time" territory="ME" type="Europe/Podgorica"/&gt;
+                        &lt;mapZone other="Central Europe Standard Time" territory="RS" type="Europe/Belgrade"/&gt;
+                        &lt;mapZone other="Central Europe Standard Time" territory="SI" type="Europe/Ljubljana"/&gt;
+                        &lt;mapZone other="Central Europe Standard Time" territory="SK" type="Europe/Bratislava"/&gt;
+
+                        &lt;!-- (UTC+01:00) Brussels, Copenhagen, Madrid, Paris --&gt;
+                        &lt;mapZone other="Romance Standard Time" territory="001" type="Europe/Paris"/&gt;
+                        &lt;mapZone other="Romance Standard Time" territory="BE" type="Europe/Brussels"/&gt;
+                        &lt;mapZone other="Romance Standard Time" territory="DK" type="Europe/Copenhagen"/&gt;
+                        &lt;mapZone other="Romance Standard Time" territory="ES" type="Europe/Madrid Africa/Ceuta"/&gt;
+                        &lt;mapZone other="Romance Standard Time" territory="FR" type="Europe/Paris"/&gt;
+
+                        &lt;!-- (UTC+01:00) Sarajevo, Skopje, Warsaw, Zagreb --&gt;
+                        &lt;mapZone other="Central European Standard Time" territory="001" type="Europe/Warsaw"/&gt;
+                        &lt;mapZone other="Central European Standard Time" territory="BA" type="Europe/Sarajevo"/&gt;
+                        &lt;mapZone other="Central European Standard Time" territory="HR" type="Europe/Zagreb"/&gt;
+                        &lt;mapZone other="Central European Standard Time" territory="MK" type="Europe/Skopje"/&gt;
+                        &lt;mapZone other="Central European Standard Time" territory="PL" type="Europe/Warsaw"/&gt;
+
+                        &lt;!-- (UTC+01:00) Tripoli --&gt;
+                        &lt;mapZone other="Libya Standard Time" territory="001" type="Africa/Tripoli"/&gt;
+                        &lt;mapZone other="Libya Standard Time" territory="LY" type="Africa/Tripoli"/&gt;
+
+                        &lt;!-- (UTC+01:00) West Central Africa --&gt;
+                        &lt;mapZone other="W. Central Africa Standard Time" territory="001" type="Africa/Lagos"/&gt;
+                        &lt;mapZone other="W. Central Africa Standard Time" territory="AO" type="Africa/Luanda"/&gt;
+                        &lt;mapZone other="W. Central Africa Standard Time" territory="BJ" type="Africa/Porto-Novo"/&gt;
+                        &lt;mapZone other="W. Central Africa Standard Time" territory="CD" type="Africa/Kinshasa"/&gt;
+                        &lt;mapZone other="W. Central Africa Standard Time" territory="CF" type="Africa/Bangui"/&gt;
+                        &lt;mapZone other="W. Central Africa Standard Time" territory="CG" type="Africa/Brazzaville"/&gt;
+                        &lt;mapZone other="W. Central Africa Standard Time" territory="CM" type="Africa/Douala"/&gt;
+                        &lt;mapZone other="W. Central Africa Standard Time" territory="DZ" type="Africa/Algiers"/&gt;
+                        &lt;mapZone other="W. Central Africa Standard Time" territory="GA" type="Africa/Libreville"/&gt;
+                        &lt;mapZone other="W. Central Africa Standard Time" territory="GQ" type="Africa/Malabo"/&gt;
+                        &lt;mapZone other="W. Central Africa Standard Time" territory="NE" type="Africa/Niamey"/&gt;
+                        &lt;mapZone other="W. Central Africa Standard Time" territory="NG" type="Africa/Lagos"/&gt;
+                        &lt;mapZone other="W. Central Africa Standard Time" territory="TD" type="Africa/Ndjamena"/&gt;
+                        &lt;mapZone other="W. Central Africa Standard Time" territory="TN" type="Africa/Tunis"/&gt;
+                        &lt;mapZone other="W. Central Africa Standard Time" territory="ZZ" type="Etc/GMT-1"/&gt;
+
+                        &lt;!-- (UTC+01:00) Windhoek --&gt;
+                        &lt;mapZone other="Namibia Standard Time" territory="001" type="Africa/Windhoek"/&gt;
+                        &lt;mapZone other="Namibia Standard Time" territory="NA" type="Africa/Windhoek"/&gt;
+
+                        &lt;!-- (UTC+02:00) Athens, Bucharest --&gt;
+                        &lt;mapZone other="GTB Standard Time" territory="001" type="Europe/Bucharest"/&gt;
+                        &lt;mapZone other="GTB Standard Time" territory="GR" type="Europe/Athens"/&gt;
+                        &lt;mapZone other="GTB Standard Time" territory="MD" type="Europe/Chisinau"/&gt;
+                        &lt;mapZone other="GTB Standard Time" territory="RO" type="Europe/Bucharest"/&gt;
+
+                        &lt;!-- (UTC+02:00) Beirut --&gt;
+                        &lt;mapZone other="Middle East Standard Time" territory="001" type="Asia/Beirut"/&gt;
+                        &lt;mapZone other="Middle East Standard Time" territory="LB" type="Asia/Beirut"/&gt;
+
+                        &lt;!-- (UTC+02:00) Cairo --&gt;
+                        &lt;mapZone other="Egypt Standard Time" territory="001" type="Africa/Cairo"/&gt;
+                        &lt;mapZone other="Egypt Standard Time" territory="EG" type="Africa/Cairo"/&gt;
+
+                        &lt;!-- (UTC+02:00) Damascus --&gt;
+                        &lt;mapZone other="Syria Standard Time" territory="001" type="Asia/Damascus"/&gt;
+                        &lt;mapZone other="Syria Standard Time" territory="SY" type="Asia/Damascus"/&gt;
+
+                        &lt;!-- (UTC+02:00) E. Europe --&gt;
+                        &lt;mapZone other="E. Europe Standard Time" territory="001" type="Asia/Nicosia"/&gt;
+                        &lt;mapZone other="E. Europe Standard Time" territory="CY" type="Asia/Nicosia"/&gt;
+
+                        &lt;!-- (UTC+02:00) Harare, Pretoria --&gt;
+                        &lt;mapZone other="South Africa Standard Time" territory="001" type="Africa/Johannesburg"/&gt;
+                        &lt;mapZone other="South Africa Standard Time" territory="BI" type="Africa/Bujumbura"/&gt;
+                        &lt;mapZone other="South Africa Standard Time" territory="BW" type="Africa/Gaborone"/&gt;
+                        &lt;mapZone other="South Africa Standard Time" territory="CD" type="Africa/Lubumbashi"/&gt;
+                        &lt;mapZone other="South Africa Standard Time" territory="LS" type="Africa/Maseru"/&gt;
+                        &lt;mapZone other="South Africa Standard Time" territory="MW" type="Africa/Blantyre"/&gt;
+                        &lt;mapZone other="South Africa Standard Time" territory="MZ" type="Africa/Maputo"/&gt;
+                        &lt;mapZone other="South Africa Standard Time" territory="RW" type="Africa/Kigali"/&gt;
+                        &lt;mapZone other="South Africa Standard Time" territory="SZ" type="Africa/Mbabane"/&gt;
+                        &lt;mapZone other="South Africa Standard Time" territory="ZA" type="Africa/Johannesburg"/&gt;
+                        &lt;mapZone other="South Africa Standard Time" territory="ZM" type="Africa/Lusaka"/&gt;
+                        &lt;mapZone other="South Africa Standard Time" territory="ZW" type="Africa/Harare"/&gt;
+                        &lt;mapZone other="South Africa Standard Time" territory="ZZ" type="Etc/GMT-2"/&gt;
+
+                        &lt;!-- (UTC+02:00) Helsinki, Kyiv, Riga, Sofia, Tallinn, Vilnius --&gt;
+                        &lt;mapZone other="FLE Standard Time" territory="001" type="Europe/Kiev"/&gt;
+                        &lt;mapZone other="FLE Standard Time" territory="AX" type="Europe/Mariehamn"/&gt;
+                        &lt;mapZone other="FLE Standard Time" territory="BG" type="Europe/Sofia"/&gt;
+                        &lt;mapZone other="FLE Standard Time" territory="EE" type="Europe/Tallinn"/&gt;
+                        &lt;mapZone other="FLE Standard Time" territory="FI" type="Europe/Helsinki"/&gt;
+                        &lt;mapZone other="FLE Standard Time" territory="LT" type="Europe/Vilnius"/&gt;
+                        &lt;mapZone other="FLE Standard Time" territory="LV" type="Europe/Riga"/&gt;
+                        &lt;mapZone other="FLE Standard Time" territory="UA" type="Europe/Kiev Europe/Simferopol Europe/Uzhgorod Europe/Zaporozhye"/&gt;
+
+                        &lt;!-- (UTC+02:00) Istanbul --&gt;
+                        &lt;mapZone other="Turkey Standard Time" territory="001" type="Europe/Istanbul"/&gt;
+                        &lt;mapZone other="Turkey Standard Time" territory="TR" type="Europe/Istanbul"/&gt;
+
+                        &lt;!-- (UTC+02:00) Jerusalem --&gt;
+                        &lt;mapZone other="Israel Standard Time" territory="001" type="Asia/Jerusalem"/&gt;
+                        &lt;mapZone other="Israel Standard Time" territory="IL" type="Asia/Jerusalem"/&gt;
+
+                        &lt;!-- (UTC+03:00) Amman --&gt;
+                        &lt;mapZone other="Jordan Standard Time" territory="001" type="Asia/Amman"/&gt;
+                        &lt;mapZone other="Jordan Standard Time" territory="JO" type="Asia/Amman"/&gt;
+
+                        &lt;!-- (UTC+03:00) Baghdad --&gt;
+                        &lt;mapZone other="Arabic Standard Time" territory="001" type="Asia/Baghdad"/&gt;
+                        &lt;mapZone other="Arabic Standard Time" territory="IQ" type="Asia/Baghdad"/&gt;
+
+                        &lt;!-- (UTC+03:00) Kaliningrad, Minsk --&gt;
+                        &lt;mapZone other="Kaliningrad Standard Time" territory="001" type="Europe/Kaliningrad"/&gt;
+                        &lt;mapZone other="Kaliningrad Standard Time" territory="BY" type="Europe/Minsk"/&gt;
+                        &lt;mapZone other="Kaliningrad Standard Time" territory="RU" type="Europe/Kaliningrad"/&gt;
+
+                        &lt;!-- (UTC+03:00) Kuwait, Riyadh --&gt;
+                        &lt;mapZone other="Arab Standard Time" territory="001" type="Asia/Riyadh"/&gt;
+                        &lt;mapZone other="Arab Standard Time" territory="BH" type="Asia/Bahrain"/&gt;
+                        &lt;mapZone other="Arab Standard Time" territory="KW" type="Asia/Kuwait"/&gt;
+                        &lt;mapZone other="Arab Standard Time" territory="QA" type="Asia/Qatar"/&gt;
+                        &lt;mapZone other="Arab Standard Time" territory="SA" type="Asia/Riyadh"/&gt;
+                        &lt;mapZone other="Arab Standard Time" territory="YE" type="Asia/Aden"/&gt;
+
+                        &lt;!-- (UTC+03:00) Nairobi --&gt;
+                        &lt;mapZone other="E. Africa Standard Time" territory="001" type="Africa/Nairobi"/&gt;
+                        &lt;mapZone other="E. Africa Standard Time" territory="AQ" type="Antarctica/Syowa"/&gt;
+                        &lt;mapZone other="E. Africa Standard Time" territory="DJ" type="Africa/Djibouti"/&gt;
+                        &lt;mapZone other="E. Africa Standard Time" territory="ER" type="Africa/Asmera"/&gt;
+                        &lt;mapZone other="E. Africa Standard Time" territory="ET" type="Africa/Addis_Ababa"/&gt;
+                        &lt;mapZone other="E. Africa Standard Time" territory="KE" type="Africa/Nairobi"/&gt;
+                        &lt;mapZone other="E. Africa Standard Time" territory="KM" type="Indian/Comoro"/&gt;
+                        &lt;mapZone other="E. Africa Standard Time" territory="MG" type="Indian/Antananarivo"/&gt;
+                        &lt;mapZone other="E. Africa Standard Time" territory="SD" type="Africa/Khartoum"/&gt;
+                        &lt;mapZone other="E. Africa Standard Time" territory="SO" type="Africa/Mogadishu"/&gt;
+                        &lt;mapZone other="E. Africa Standard Time" territory="SS" type="Africa/Juba"/&gt;
+                        &lt;mapZone other="E. Africa Standard Time" territory="TZ" type="Africa/Dar_es_Salaam"/&gt;
+                        &lt;mapZone other="E. Africa Standard Time" territory="UG" type="Africa/Kampala"/&gt;
+                        &lt;mapZone other="E. Africa Standard Time" territory="YT" type="Indian/Mayotte"/&gt;
+                        &lt;mapZone other="E. Africa Standard Time" territory="ZZ" type="Etc/GMT-3"/&gt;
+
+                        &lt;!-- (UTC+03:30) Tehran --&gt;
+                        &lt;mapZone other="Iran Standard Time" territory="001" type="Asia/Tehran"/&gt;
+                        &lt;mapZone other="Iran Standard Time" territory="IR" type="Asia/Tehran"/&gt;
+
+                        &lt;!-- (UTC+04:00) Abu Dhabi, Muscat --&gt;
+                        &lt;mapZone other="Arabian Standard Time" territory="001" type="Asia/Dubai"/&gt;
+                        &lt;mapZone other="Arabian Standard Time" territory="AE" type="Asia/Dubai"/&gt;
+                        &lt;mapZone other="Arabian Standard Time" territory="OM" type="Asia/Muscat"/&gt;
+                        &lt;mapZone other="Arabian Standard Time" territory="ZZ" type="Etc/GMT-4"/&gt;
+
+                        &lt;!-- (UTC+04:00) Baku --&gt;
+                        &lt;mapZone other="Azerbaijan Standard Time" territory="001" type="Asia/Baku"/&gt;
+                        &lt;mapZone other="Azerbaijan Standard Time" territory="AZ" type="Asia/Baku"/&gt;
+
+                        &lt;!-- (UTC+04:00) Moscow, St. Petersburg, Volgograd --&gt;
+                        &lt;mapZone other="Russian Standard Time" territory="001" type="Europe/Moscow"/&gt;
+                        &lt;mapZone other="Russian Standard Time" territory="RU" type="Europe/Moscow Europe/Samara Europe/Volgograd"/&gt;
+
+                        &lt;!-- (UTC+04:00) Port Louis --&gt;
+                        &lt;mapZone other="Mauritius Standard Time" territory="001" type="Indian/Mauritius"/&gt;
+                        &lt;mapZone other="Mauritius Standard Time" territory="MU" type="Indian/Mauritius"/&gt;
+                        &lt;mapZone other="Mauritius Standard Time" territory="RE" type="Indian/Reunion"/&gt;
+                        &lt;mapZone other="Mauritius Standard Time" territory="SC" type="Indian/Mahe"/&gt;
+
+                        &lt;!-- (UTC+04:00) Tbilisi --&gt;
+                        &lt;mapZone other="Georgian Standard Time" territory="001" type="Asia/Tbilisi"/&gt;
+                        &lt;mapZone other="Georgian Standard Time" territory="GE" type="Asia/Tbilisi"/&gt;
+
+                        &lt;!-- (UTC+04:00) Yerevan --&gt;
+                        &lt;mapZone other="Caucasus Standard Time" territory="001" type="Asia/Yerevan"/&gt;
+                        &lt;mapZone other="Caucasus Standard Time" territory="AM" type="Asia/Yerevan"/&gt;
+
+                        &lt;!-- (UTC+04:30) Kabul --&gt;
+                        &lt;mapZone other="Afghanistan Standard Time" territory="001" type="Asia/Kabul"/&gt;
+                        &lt;mapZone other="Afghanistan Standard Time" territory="AF" type="Asia/Kabul"/&gt;
+
+                        &lt;!-- (UTC+05:00) Islamabad, Karachi --&gt;
+                        &lt;mapZone other="Pakistan Standard Time" territory="001" type="Asia/Karachi"/&gt;
+                        &lt;mapZone other="Pakistan Standard Time" territory="PK" type="Asia/Karachi"/&gt;
+
+                        &lt;!-- (UTC+05:00) Tashkent --&gt;
+                        &lt;mapZone other="West Asia Standard Time" territory="001" type="Asia/Tashkent"/&gt;
+                        &lt;mapZone other="West Asia Standard Time" territory="AQ" type="Antarctica/Mawson"/&gt;
+                        &lt;mapZone other="West Asia Standard Time" territory="KZ" type="Asia/Oral Asia/Aqtau Asia/Aqtobe"/&gt;
+                        &lt;mapZone other="West Asia Standard Time" territory="MV" type="Indian/Maldives"/&gt;
+                        &lt;mapZone other="West Asia Standard Time" territory="TF" type="Indian/Kerguelen"/&gt;
+                        &lt;mapZone other="West Asia Standard Time" territory="TJ" type="Asia/Dushanbe"/&gt;
+                        &lt;mapZone other="West Asia Standard Time" territory="TM" type="Asia/Ashgabat"/&gt;
+                        &lt;mapZone other="West Asia Standard Time" territory="UZ" type="Asia/Tashkent Asia/Samarkand"/&gt;
+                        &lt;mapZone other="West Asia Standard Time" territory="ZZ" type="Etc/GMT-5"/&gt;
+
+                        &lt;!-- (UTC+05:30) Chennai, Kolkata, Mumbai, New Delhi --&gt;
+                        &lt;mapZone other="India Standard Time" territory="001" type="Asia/Calcutta"/&gt;
+                        &lt;mapZone other="India Standard Time" territory="IN" type="Asia/Calcutta"/&gt;
+
+                        &lt;!-- (UTC+05:30) Sri Jayawardenepura --&gt;
+                        &lt;mapZone other="Sri Lanka Standard Time" territory="001" type="Asia/Colombo"/&gt;
+                        &lt;mapZone other="Sri Lanka Standard Time" territory="LK" type="Asia/Colombo"/&gt;
+
+                        &lt;!-- (UTC+05:45) Kathmandu --&gt;
+                        &lt;mapZone other="Nepal Standard Time" territory="001" type="Asia/Katmandu"/&gt;
+                        &lt;mapZone other="Nepal Standard Time" territory="NP" type="Asia/Katmandu"/&gt;
+
+                        &lt;!-- (UTC+06:00) Astana --&gt;
+                        &lt;mapZone other="Central Asia Standard Time" territory="001" type="Asia/Almaty"/&gt;
+                        &lt;mapZone other="Central Asia Standard Time" territory="AQ" type="Antarctica/Vostok"/&gt;
+                        &lt;mapZone other="Central Asia Standard Time" territory="IO" type="Indian/Chagos"/&gt;
+                        &lt;mapZone other="Central Asia Standard Time" territory="KG" type="Asia/Bishkek"/&gt;
+                        &lt;mapZone other="Central Asia Standard Time" territory="KZ" type="Asia/Almaty Asia/Qyzylorda"/&gt;
+                        &lt;mapZone other="Central Asia Standard Time" territory="ZZ" type="Etc/GMT-6"/&gt;
+
+                        &lt;!-- (UTC+06:00) Dhaka --&gt;
+                        &lt;mapZone other="Bangladesh Standard Time" territory="001" type="Asia/Dhaka"/&gt;
+                        &lt;mapZone other="Bangladesh Standard Time" territory="BD" type="Asia/Dhaka"/&gt;
+                        &lt;mapZone other="Bangladesh Standard Time" territory="BT" type="Asia/Thimphu"/&gt;
+
+                        &lt;!-- (UTC+06:00) Ekaterinburg --&gt;
+                        &lt;mapZone other="Ekaterinburg Standard Time" territory="001" type="Asia/Yekaterinburg"/&gt;
+                        &lt;mapZone other="Ekaterinburg Standard Time" territory="RU" type="Asia/Yekaterinburg"/&gt;
+
+                        &lt;!-- (UTC+06:30) Yangon (Rangoon) --&gt;
+                        &lt;mapZone other="Myanmar Standard Time" territory="001" type="Asia/Rangoon"/&gt;
+                        &lt;mapZone other="Myanmar Standard Time" territory="CC" type="Indian/Cocos"/&gt;
+                        &lt;mapZone other="Myanmar Standard Time" territory="MM" type="Asia/Rangoon"/&gt;
+
+                        &lt;!-- (UTC+07:00) Bangkok, Hanoi, Jakarta --&gt;
+                        &lt;mapZone other="SE Asia Standard Time" territory="001" type="Asia/Bangkok"/&gt;
+                        &lt;mapZone other="SE Asia Standard Time" territory="AQ" type="Antarctica/Davis"/&gt;
+                        &lt;mapZone other="SE Asia Standard Time" territory="CX" type="Indian/Christmas"/&gt;
+                        &lt;mapZone other="SE Asia Standard Time" territory="ID" type="Asia/Jakarta Asia/Pontianak"/&gt;
+                        &lt;mapZone other="SE Asia Standard Time" territory="KH" type="Asia/Phnom_Penh"/&gt;
+                        &lt;mapZone other="SE Asia Standard Time" territory="LA" type="Asia/Vientiane"/&gt;
+                        &lt;mapZone other="SE Asia Standard Time" territory="MN" type="Asia/Hovd"/&gt;
+                        &lt;mapZone other="SE Asia Standard Time" territory="TH" type="Asia/Bangkok"/&gt;
+                        &lt;mapZone other="SE Asia Standard Time" territory="VN" type="Asia/Saigon"/&gt;
+                        &lt;mapZone other="SE Asia Standard Time" territory="ZZ" type="Etc/GMT-7"/&gt;
+
+                        &lt;!-- (UTC+07:00) Novosibirsk --&gt;
+                        &lt;mapZone other="N. Central Asia Standard Time" territory="001" type="Asia/Novosibirsk"/&gt;
+                        &lt;mapZone other="N. Central Asia Standard Time" territory="RU" type="Asia/Novosibirsk Asia/Novokuznetsk Asia/Omsk"/&gt;
+
+                        &lt;!-- (UTC+08:00) Beijing, Chongqing, Hong Kong, Urumqi --&gt;
+                        &lt;mapZone other="China Standard Time" territory="001" type="Asia/Shanghai"/&gt;
+                        &lt;mapZone other="China Standard Time" territory="CN" type="Asia/Shanghai Asia/Chongqing Asia/Harbin Asia/Kashgar Asia/Urumqi"/&gt;
+                        &lt;mapZone other="China Standard Time" territory="HK" type="Asia/Hong_Kong"/&gt;
+                        &lt;mapZone other="China Standard Time" territory="MO" type="Asia/Macau"/&gt;
+
+                        &lt;!-- (UTC+08:00) Krasnoyarsk --&gt;
+                        &lt;mapZone other="North Asia Standard Time" territory="001" type="Asia/Krasnoyarsk"/&gt;
+                        &lt;mapZone other="North Asia Standard Time" territory="RU" type="Asia/Krasnoyarsk"/&gt;
+
+                        &lt;!-- (UTC+08:00) Kuala Lumpur, Singapore --&gt;
+                        &lt;mapZone other="Singapore Standard Time" territory="001" type="Asia/Singapore"/&gt;
+                        &lt;mapZone other="Singapore Standard Time" territory="BN" type="Asia/Brunei"/&gt;
+                        &lt;mapZone other="Singapore Standard Time" territory="ID" type="Asia/Makassar"/&gt;
+                        &lt;mapZone other="Singapore Standard Time" territory="MY" type="Asia/Kuala_Lumpur Asia/Kuching"/&gt;
+                        &lt;mapZone other="Singapore Standard Time" territory="PH" type="Asia/Manila"/&gt;
+                        &lt;mapZone other="Singapore Standard Time" territory="SG" type="Asia/Singapore"/&gt;
+                        &lt;mapZone other="Singapore Standard Time" territory="ZZ" type="Etc/GMT-8"/&gt;
+
+                        &lt;!-- (UTC+08:00) Perth --&gt;
+                        &lt;mapZone other="W. Australia Standard Time" territory="001" type="Australia/Perth"/&gt;
+                        &lt;mapZone other="W. Australia Standard Time" territory="AQ" type="Antarctica/Casey"/&gt;
+                        &lt;mapZone other="W. Australia Standard Time" territory="AU" type="Australia/Perth"/&gt;
+
+                        &lt;!-- (UTC+08:00) Taipei --&gt;
+                        &lt;mapZone other="Taipei Standard Time" territory="001" type="Asia/Taipei"/&gt;
+                        &lt;mapZone other="Taipei Standard Time" territory="TW" type="Asia/Taipei"/&gt;
+
+                        &lt;!-- (UTC+08:00) Ulaanbaatar --&gt;
+                        &lt;mapZone other="Ulaanbaatar Standard Time" territory="001" type="Asia/Ulaanbaatar"/&gt;
+                        &lt;mapZone other="Ulaanbaatar Standard Time" territory="MN" type="Asia/Ulaanbaatar Asia/Choibalsan"/&gt;
+
+                        &lt;!-- (UTC+09:00) Irkutsk --&gt;
+                        &lt;mapZone other="North Asia East Standard Time" territory="001" type="Asia/Irkutsk"/&gt;
+                        &lt;mapZone other="North Asia East Standard Time" territory="RU" type="Asia/Irkutsk"/&gt;
+
+                        &lt;!-- (UTC+09:00) Osaka, Sapporo, Tokyo --&gt;
+                        &lt;mapZone other="Tokyo Standard Time" territory="001" type="Asia/Tokyo"/&gt;
+                        &lt;mapZone other="Tokyo Standard Time" territory="ID" type="Asia/Jayapura"/&gt;
+                        &lt;mapZone other="Tokyo Standard Time" territory="JP" type="Asia/Tokyo"/&gt;
+                        &lt;mapZone other="Tokyo Standard Time" territory="PW" type="Pacific/Palau"/&gt;
+                        &lt;mapZone other="Tokyo Standard Time" territory="TL" type="Asia/Dili"/&gt;
+                        &lt;mapZone other="Tokyo Standard Time" territory="ZZ" type="Etc/GMT-9"/&gt;
+
+                        &lt;!-- (UTC+09:00) Seoul --&gt;
+                        &lt;mapZone other="Korea Standard Time" territory="001" type="Asia/Seoul"/&gt;
+                        &lt;mapZone other="Korea Standard Time" territory="KP" type="Asia/Pyongyang"/&gt;
+                        &lt;mapZone other="Korea Standard Time" territory="KR" type="Asia/Seoul"/&gt;
+
+                        &lt;!-- (UTC+09:30) Adelaide --&gt;
+                        &lt;mapZone other="Cen. Australia Standard Time" territory="001" type="Australia/Adelaide"/&gt;
+                        &lt;mapZone other="Cen. Australia Standard Time" territory="AU" type="Australia/Adelaide Australia/Broken_Hill"/&gt;
+
+                        &lt;!-- (UTC+09:30) Darwin --&gt;
+                        &lt;mapZone other="AUS Central Standard Time" territory="001" type="Australia/Darwin"/&gt;
+                        &lt;mapZone other="AUS Central Standard Time" territory="AU" type="Australia/Darwin"/&gt;
+
+                        &lt;!-- (UTC+10:00) Brisbane --&gt;
+                        &lt;mapZone other="E. Australia Standard Time" territory="001" type="Australia/Brisbane"/&gt;
+                        &lt;mapZone other="E. Australia Standard Time" territory="AU" type="Australia/Brisbane Australia/Lindeman"/&gt;
+
+                        &lt;!-- (UTC+10:00) Canberra, Melbourne, Sydney --&gt;
+                        &lt;mapZone other="AUS Eastern Standard Time" territory="001" type="Australia/Sydney"/&gt;
+                        &lt;mapZone other="AUS Eastern Standard Time" territory="AU" type="Australia/Sydney Australia/Melbourne"/&gt;
+
+                        &lt;!-- (UTC+10:00) Guam, Port Moresby --&gt;
+                        &lt;mapZone other="West Pacific Standard Time" territory="001" type="Pacific/Port_Moresby"/&gt;
+                        &lt;mapZone other="West Pacific Standard Time" territory="AQ" type="Antarctica/DumontDUrville"/&gt;
+                        &lt;mapZone other="West Pacific Standard Time" territory="FM" type="Pacific/Truk"/&gt;
+                        &lt;mapZone other="West Pacific Standard Time" territory="GU" type="Pacific/Guam"/&gt;
+                        &lt;mapZone other="West Pacific Standard Time" territory="MP" type="Pacific/Saipan"/&gt;
+                        &lt;mapZone other="West Pacific Standard Time" territory="PG" type="Pacific/Port_Moresby"/&gt;
+                        &lt;mapZone other="West Pacific Standard Time" territory="ZZ" type="Etc/GMT-10"/&gt;
+
+                        &lt;!-- (UTC+10:00) Hobart --&gt;
+                        &lt;mapZone other="Tasmania Standard Time" territory="001" type="Australia/Hobart"/&gt;
+                        &lt;mapZone other="Tasmania Standard Time" territory="AU" type="Australia/Hobart Australia/Currie"/&gt;
+
+                        &lt;!-- (UTC+10:00) Yakutsk --&gt;
+                        &lt;mapZone other="Yakutsk Standard Time" territory="001" type="Asia/Yakutsk"/&gt;
+                        &lt;mapZone other="Yakutsk Standard Time" territory="RU" type="Asia/Yakutsk Asia/Khandyga"/&gt;
+
+                        &lt;!-- (UTC+11:00) Solomon Is., New Caledonia --&gt;
+                        &lt;mapZone other="Central Pacific Standard Time" territory="001" type="Pacific/Guadalcanal"/&gt;
+                        &lt;mapZone other="Central Pacific Standard Time" territory="AU" type="Antarctica/Macquarie"/&gt;
+                        &lt;mapZone other="Central Pacific Standard Time" territory="FM" type="Pacific/Ponape Pacific/Kosrae"/&gt;
+                        &lt;mapZone other="Central Pacific Standard Time" territory="NC" type="Pacific/Noumea"/&gt;
+                        &lt;mapZone other="Central Pacific Standard Time" territory="SB" type="Pacific/Guadalcanal"/&gt;
+                        &lt;mapZone other="Central Pacific Standard Time" territory="VU" type="Pacific/Efate"/&gt;
+                        &lt;mapZone other="Central Pacific Standard Time" territory="ZZ" type="Etc/GMT-11"/&gt;
+
+                        &lt;!-- (UTC+11:00) Vladivostok --&gt;
+                        &lt;mapZone other="Vladivostok Standard Time" territory="001" type="Asia/Vladivostok"/&gt;
+                        &lt;mapZone other="Vladivostok Standard Time" territory="RU" type="Asia/Vladivostok Asia/Sakhalin Asia/Ust-Nera"/&gt;
+
+                        &lt;!-- (UTC+12:00) Auckland, Wellington --&gt;
+                        &lt;mapZone other="New Zealand Standard Time" territory="001" type="Pacific/Auckland"/&gt;
+                        &lt;mapZone other="New Zealand Standard Time" territory="AQ" type="Antarctica/South_Pole Antarctica/McMurdo"/&gt;
+                        &lt;mapZone other="New Zealand Standard Time" territory="NZ" type="Pacific/Auckland"/&gt;
+
+                        &lt;!-- (UTC+12:00) Coordinated Universal Time+12 --&gt;
+                        &lt;mapZone other="UTC+12" territory="001" type="Etc/GMT-12"/&gt;
+                        &lt;mapZone other="UTC+12" territory="KI" type="Pacific/Tarawa"/&gt;
+                        &lt;mapZone other="UTC+12" territory="MH" type="Pacific/Majuro Pacific/Kwajalein"/&gt;
+                        &lt;mapZone other="UTC+12" territory="NR" type="Pacific/Nauru"/&gt;
+                        &lt;mapZone other="UTC+12" territory="TV" type="Pacific/Funafuti"/&gt;
+                        &lt;mapZone other="UTC+12" territory="UM" type="Pacific/Wake"/&gt;
+                        &lt;mapZone other="UTC+12" territory="WF" type="Pacific/Wallis"/&gt;
+                        &lt;mapZone other="UTC+12" territory="ZZ" type="Etc/GMT-12"/&gt;
+
+                        &lt;!-- (UTC+12:00) Fiji --&gt;
+                        &lt;mapZone other="Fiji Standard Time" territory="001" type="Pacific/Fiji"/&gt;
+                        &lt;mapZone other="Fiji Standard Time" territory="FJ" type="Pacific/Fiji"/&gt;
+
+                        &lt;!-- (UTC+12:00) Magadan --&gt;
+                        &lt;mapZone other="Magadan Standard Time" territory="001" type="Asia/Magadan"/&gt;
+                        &lt;mapZone other="Magadan Standard Time" territory="RU" type="Asia/Magadan Asia/Anadyr Asia/Kamchatka"/&gt;
+
+                        &lt;!-- (UTC+13:00) Nuku'alofa --&gt;
+                        &lt;mapZone other="Tonga Standard Time" territory="001" type="Pacific/Tongatapu"/&gt;
+                        &lt;mapZone other="Tonga Standard Time" territory="KI" type="Pacific/Enderbury"/&gt;
+                        &lt;mapZone other="Tonga Standard Time" territory="TK" type="Pacific/Fakaofo"/&gt;
+                        &lt;mapZone other="Tonga Standard Time" territory="TO" type="Pacific/Tongatapu"/&gt;
+                        &lt;mapZone other="Tonga Standard Time" territory="ZZ" type="Etc/GMT-13"/&gt;
+
+                        &lt;!-- (UTC+13:00) Samoa --&gt;
+                        &lt;mapZone other="Samoa Standard Time" territory="001" type="Pacific/Apia"/&gt;
+                        &lt;mapZone other="Samoa Standard Time" territory="WS" type="Pacific/Apia"/&gt;
+                &lt;/mapTimezones&gt;
+        &lt;/windowsZones&gt;
+&lt;/supplementalData&gt;</value>
+  </data>
+</root>
